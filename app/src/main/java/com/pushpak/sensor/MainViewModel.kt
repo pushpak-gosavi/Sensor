@@ -9,7 +9,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    private val lightSensor: MesaurableSensor
+      lightSensor: MesaurableSensor
 ) : ViewModel(){
 
     var isdark by mutableStateOf(false)
